@@ -5,3 +5,16 @@ html {
 body {
   background-color: black;
 }
+
+/* App */
+.app {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.app > h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  margin-top: 3rem;
+}
