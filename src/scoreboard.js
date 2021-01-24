@@ -1,11 +1,11 @@
 let score = 0;
-let highestScore = 0;
+let highScore = 0;
 
 const incrementScore = function incrementScore() {
   score += 1;
 
-  if (score > highestScore) {
-    highestScore = score;
+  if (score > highScore) {
+    highScore = score;
   }
 };
 
@@ -17,15 +17,15 @@ const getScore = function getScore() {
   return score;
 };
 
-const getHighestScore = function getHighestScore() {
-  return highestScore;
+const gethighScore = function gethighScore() {
+  return highScore;
 };
 
 const scoreboard = {
   incrementScore,
   resetScore,
   getScore,
-  getHighestScore,
+  gethighScore,
 };
 
 export { scoreboard as default };
