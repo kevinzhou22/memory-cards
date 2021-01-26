@@ -1,14 +1,14 @@
 import React from 'react';
 import './reset.css';
 import './style.css';
+import ScoreboardDisplay from './components/ScoreboardDisplay';
 
 function App() {
   return (
     <div className="app">
       <h1>Memory Cards</h1>
-      { /* placeholder for scoreboard */}
-      <div />
-      { /* placeholder for cardsBoard */}
+      <ScoreboardDisplay />
+      { /* placeholder fogitr cardsBoard */}
       <div />
     </div>
   );
