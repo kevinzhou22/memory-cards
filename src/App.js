@@ -8,7 +8,7 @@ function App() {
     <div className="app">
       <h1>Memory Cards</h1>
       <ScoreboardDisplay />
-      { /* placeholder fogitr cardsBoard */}
+      { /* placeholder for cardsBoard */}
       <div />
     </div>
   );
