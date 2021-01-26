@@ -22,7 +22,7 @@ const getScore = function getScore() {
   return score;
 };
 
-const gethighScore = function gethighScore() {
+const getHighScore = function gethighScore() {
   return highScore;
 };
 
@@ -30,7 +30,7 @@ const scoreboard = {
   incrementScore,
   resetScore,
   getScore,
-  gethighScore,
+  getHighScore,
 };
 
 export { scoreboard as default };
