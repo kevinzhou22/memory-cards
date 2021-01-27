@@ -30,3 +30,55 @@ body {
 .scoreboard-display > .score {
   margin-right: 2rem;
 }
+
+/* CardBoard */
+
+.card-board {
+  display: grid;
+  padding: 10rem 15rem;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 3rem 3rem;
+  justify-items: center;
+}
+
+/* Card */
+
+.card {
+  width: 25rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card .card-image-container {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img {
+  object-fit: contain;
+  width: 60%;
+  height: 60%;
+  user-select: none;
+}
+
+.card .title {
+  margin-top: 2.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+  user-select: none;
+}
+
