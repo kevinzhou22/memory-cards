@@ -2,7 +2,7 @@
 import React from 'react';
 
 function Card(props) {
-  const { src, title, id, onClick, backgroundColor } = props;
+  const { url, title, id, onClick, backgroundColor } = props;
 
   const handleClick = function handleClick() {
     onClick();
@@ -15,7 +15,7 @@ function Card(props) {
   return (
     <div className="card" onClick={handleClick} style={cardStyle}>
       <div className="card-image-container">
-        <img src={src} alt="" />
+        <img src={url} alt="" />
       </div>
       <div className="title">{title}</div>
     </div>
